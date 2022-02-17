@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right top, #df6584,#0c0f0f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass{
+    height: 70vh;
+    width: 70%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255,
+     255, 255,0.3 ));
+     border-radius: 10px;
+     z-index: 1;
+    display: flex;
+
+    
+
+}
+
+.circle1, .circle2{
+    height: 100px;
+    width: 100px;
+    background-color:white;
+    position: absolute;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8 ), rgba(255, 255, 255,0.3));
+    
+}
+
+.circle1 {
+    top: 10%;
+    left: 10%;
+    border-radius: 50%;
+   
+}
+
+
+.circle2 {
+    bottom: 10%;
+    right: 10%;
+    border-radius: 50%;
+}
+
+.profile {
+    height: 100%;
+    width: 30%;
+    background: linear-gradient(to left top, violet, white);
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.myphoto{
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.im1{
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.moviescard{
+    height: 70vh;
+    width: 70%; 
+    background: linear-gradient(to left top, blue, peru);
+    border-radius: 10px; 
+}
+
+.moviescard > h2{
+    text-align: center;
+}
+
+.mov1 >img {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 8rem;
+    right: 43rem;
+    border-radius: 10px;  
+}
+
+.mov2 >img {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 8rem;
+    right: 30rem;  
+    border-radius: 10px;
+}
+
+.mov3 >img {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 8rem;
+    right: 17rem;
+    border-radius: 10px;  
+}
+
+.mov4 >img {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 16rem;
+    right: 43rem;
+    border-radius: 10px;  
+}
+
+.mov5 >img {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 16rem;
+    right: 30rem;  
+    border-radius: 10px;
+}
+
+.mov6 >img {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 16rem;
+    right: 17rem;
+    border-radius: 10px;  
+}
+
+.mov7 >img {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 24rem;
+    right: 43rem;
+    border-radius: 10px;  
+}
+
+.mov8 >img {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 24rem;
+    right: 30rem;
+    border-radius: 10px;  
+}
+
+.mov9 >img {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 24rem;
+    right: 17rem; 
+    border-radius: 10px; 
+}
